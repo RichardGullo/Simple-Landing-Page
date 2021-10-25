@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color:#090f20;
+    font-weight: 700;
+    
+}
+
+.button{
+    background-color: #223a63;
+    color:#fff
+}
+
+.button:hover{
+    color:#fff;
+}
+
+#showcase{
+    background-image:url('./images/mountain.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0 20px;
+}
+
+.showcase-content{
+    background-color:#fff;
+    width:40vw;
+    border-radius: 15px;
+    text-align: center;
+    padding:10px;
+}
+
+#section-a{
+    padding:20px;
+    background-color:#6d82a6;
+    color:#fff;
+    text-align: center;
+}
+
+#section-b{
+    padding:20px;
+    text-align: center;
+}
